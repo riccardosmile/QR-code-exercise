@@ -1,0 +1,23 @@
+.contenitore{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 10pt;
+    padding: 1rem 1rem 1.5rem 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 15.6rem;
+}
+html
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+img{
+    max-width: 100%;
+    border-radius: .75rem;
+}
